@@ -27,7 +27,7 @@ Next, you should apply the theme to your blog and generate the stylesheets. Foll
 
 ### Install from downloaded zip archive
 
-If you are more comfortable with just the theme files, you can download our zip archives from [Github](https://github.com/octopress-themes/murky-mussels/blob/master/murky-mussels-v0.1.0.zip).
+If you are more comfortable with just the theme files, you can download our zip archives from [S3](https://s3.amazonaws.com/static.octopressthemes.com/murky-mussels-v0.1.0.zip).
 
 1. Once you have downloaded the package, uncompress the archive.
 2. Go to your Octopress blog's directory. There should be a hidden directory called __.themes__.
