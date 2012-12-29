@@ -2,46 +2,48 @@
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
-  display: table;
-  width: 100%;
   overflow: hidden;
 
-  > header, nav {
-    @extend .group;
-    padding-left: $pad-min;
-    padding-right: $pad-min;
-    @media only screen and (min-width: 480px) {
-      padding-left: $pad-narrow;
-      padding-right: $pad-narrow;
-    }
-    @media only screen and (min-width: 768px) {
-      padding-left: $pad-medium;
-      padding-right: $pad-medium;
-    }
-    @media only screen and (min-width: 992px) {
-      padding-left: $pad-wide;
-      padding-right: $pad-wide;
-    }
-  }
-  padding: .35em 0;
-  > header {
-    display: table-cell;
-    float: left;
-    h1 {
-      font-family: 'Raleway', sans-serif;
-      display: inline-block;
-      margin: 0;
-      a, a:visited, a:hover {
-        color: $title_color;
-        text-decoration: none;
+  .wrapper {
+    display: table;
+    width: 100%;
+    > header, nav {
+      @extend .group;
+      padding-left: $pad-min;
+      padding-right: $pad-min;
+      @media only screen and (min-width: 480px) {
+        padding-left: $pad-narrow;
+        padding-right: $pad-narrow;
+      }
+      @media only screen and (min-width: 768px) {
+        padding-left: $pad-medium;
+        padding-right: $pad-medium;
+      }
+      @media only screen and (min-width: 992px) {
+        padding-left: $pad-wide;
+        padding-right: $pad-wide;
       }
     }
-    h2 {
-      margin: .2em 0 0;
-      @extend .sans;
-      font-size: 1em;
-      color: $subtitle-color;
-      font-weight: normal;
+    padding: .35em 0;
+    > header {
+      display: table-cell;
+      float: left;
+      h1 {
+        font-family: 'Raleway', sans-serif;
+        display: inline-block;
+        margin: 0;
+        a, a:visited, a:hover {
+          color: $title_color;
+          text-decoration: none;
+        }
+      }
+      h2 {
+        margin: .2em 0 0;
+        @extend .sans;
+        font-size: 1em;
+        color: $subtitle-color;
+        font-weight: normal;
+      }
     }
   }
 }
