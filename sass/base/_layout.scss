@@ -86,24 +86,8 @@ $header-font-size: 1em !default;
   font-size: $header-font-size;
 }
 
-#header {
-  > header, nav {
-      @extend .group;
-      padding-left: $pad-min;
-      padding-right: $pad-min;
-      @media only screen and (min-width: 480px) {
-	  padding-left: $pad-narrow;
-	  padding-right: $pad-narrow;
-      }
-      @media only screen and (min-width: 768px) {
-	  padding-left: $pad-medium;
-	  padding-right: $pad-medium;
-      }
-      @media only screen and (min-width: 992px) {
-	  padding-left: $pad-wide;
-	  padding-right: $pad-wide;
-      }
-  }
+#header-container {
+  background: $header-bg;
 }
 
 #content {
