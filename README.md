@@ -52,7 +52,7 @@ Next, you should apply the theme to your blog and generate the stylesheets. Foll
 
 It is largely similar to the install process. We want to overwrite the theme with the new files. Lastly, to run install to apply the changes.
 
-1. Download the new packages from the [Downloads](https://github.com/octopress-themes/murky-mussels/downloads) page.
+1. Download the new packages from [S3](https://s3.amazonaws.com/static.octopressthemes.com/themes/murky-mussels-v0.1.2.zip).
 2. Once you have downloaded the package, uncompress the archive.
 3. Go to your Octopress blog's directory. There should be a hidden directory called __.themes__.
 4. Your downloaded files should be a single directory called __murky-mussels__ containing the theme files. Copy the __murky-mussels__ directory to the __.themes__ directory on your Octopress blog's directory.
